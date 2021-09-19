@@ -75,6 +75,17 @@ p.footer-title {
   text-align: center;
 }
 
+.btn-contact {
+  background-color: #51dacf;
+  color: #2c003e;
+  border: 1px solid #51dacf;
+}
+
+.btn-contact:hover {
+  color: #2c003e;
+  background-color: white;
+}
+
 @media screen and (min-width: 900px) {
   .head {
     padding-bottom: 90px;
