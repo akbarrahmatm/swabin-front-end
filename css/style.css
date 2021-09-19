@@ -55,12 +55,32 @@ h1.hero-title {
 }
 
 footer {
+  padding: 20px;
   background-color: #51dacf;
+}
+
+footer li a {
+  color: #2c003e;
+}
+
+iframe {
+  width: 100%;
+}
+
+p.footer-title {
+  font-weight: 800;
+}
+
+.copyright {
+  text-align: center;
 }
 
 @media screen and (min-width: 900px) {
   .head {
-    padding-bottom: 100px;
+    padding-bottom: 90px;
+  }
+  footer .container {
+    padding-top: 30px;
   }
   .menubar {
     padding-left: 50px;
